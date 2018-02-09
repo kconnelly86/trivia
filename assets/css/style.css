@@ -1,5 +1,31 @@
 /*star field*/
+#title {
+    color: white;
+    text-align: center;
+}
+#wrapper {
+    text-align: center;
+}
+#subwrapper {
+    color: white;
+}
+#start {
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    color: black;
+    padding: 1px 15px;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+    margin: 0% 0% 2% 0%;
+}
 
+#start:hover {
+    background: none;
+    border: 1px solid yellow;
+    color: yellow;
+    transition: .2s ease-in-out;
+}
 html,
 body {
     height: 600px;
