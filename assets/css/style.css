@@ -12,6 +12,9 @@
 #time {
     color: yellow;
 }
+#para {
+    color: rgb(138, 138, 145);
+}
 #start {
     background-color: green;
     border: 1px solid green;

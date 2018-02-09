@@ -43,6 +43,7 @@ var game = {
     start: function(){
         timer = setInterval(game.countdown,1000);
         $('#subwrapper').prepend('<h2 id=time>Time Remaining: <span id="counter">30</span> Seconds</h2>')
+        $('#para').remove();
         $('#start').remove();
         for (var i = 0; i < questions.length; i++) {
             $('#subwrapper').append('<h2>' + questions[i].question + '</h2>');
