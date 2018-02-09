@@ -42,7 +42,7 @@ var game = {
     },
     start: function(){
         timer = setInterval(game.countdown,1000);
-        $('#subwrapper').prepend('<h2>Time Remaining: <span id="counter">30</span> Seconds</h2>')
+        $('#subwrapper').prepend('<h2 id=time>Time Remaining: <span id="counter">30</span> Seconds</h2>')
         $('#start').remove();
         for (var i = 0; i < questions.length; i++) {
             $('#subwrapper').append('<h2>' + questions[i].question + '</h2>');
@@ -95,7 +95,7 @@ var game = {
         clearInterval(timer);
         $('#subwrapper h2').remove();
 
-        $('#subwrapper').html("<h2>All done</h2>");
+        $('#subwrapper').html("<h2 id=time>All done</h2>");
         $('#subwrapper').append("<h3>Correct Answers: "+this.correct+"</h3>");
         $('#subwrapper').append("<h3>Incorrect Answers: "+this.incorrect+"</h3>");
         $('#subwrapper').append("<h3>Unanswered: "+(questions.length-(this.incorrect+this.correct))+"</h3>");

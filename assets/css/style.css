@@ -1,6 +1,6 @@
 /*star field*/
 #title {
-    color: white;
+    color: rgb(138, 138, 145);
     text-align: center;
 }
 #wrapper {
@@ -9,9 +9,12 @@
 #subwrapper {
     color: white;
 }
+#time {
+    color: yellow;
+}
 #start {
-    background-color: yellow;
-    border: 1px solid yellow;
+    background-color: green;
+    border: 1px solid green;
     border-radius: 6px;
     color: black;
     padding: 1px 15px;
@@ -22,8 +25,25 @@
 
 #start:hover {
     background: none;
-    border: 1px solid yellow;
-    color: yellow;
+    border: 1px solid green;
+    color: green;
+    transition: .2s ease-in-out;
+}
+#end {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: black;
+    padding: 1px 15px;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+    margin: 0% 0% 2% 0%;
+}
+
+#end:hover {
+    background: none;
+    border: 1px solid red;
+    color: red;
     transition: .2s ease-in-out;
 }
 html,
