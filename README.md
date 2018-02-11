@@ -1,5 +1,3 @@
-# Trivia
-
 # This is a Spaceballs Trivia Game.
 
 By pressing the start button you have 30 seconds to answer the 5 questions by selecting one of the options available to you. Once the done button is pressed or when the time runs out you will be shown a screen with the results of your quiz.
