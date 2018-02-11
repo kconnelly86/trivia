@@ -6,11 +6,8 @@ $(document).on('click','#end',function(){
     game.done();
 })
 
-//reset button
-//button works when clicked, responds in console.log
-$('#reset').on('click', function () {
-    console.log('clicky');
-})
+
+
 
 
 var questions = [{
@@ -110,3 +107,9 @@ var game = {
         
     }
 }
+
+var reset = document.getElementById('reset');
+
+reset.addEventListener('click', function (e) {
+    location.reload();
+}, false);
