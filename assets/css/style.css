@@ -15,6 +15,7 @@
 #para {
     color: rgb(138, 138, 145);
 }
+/* buttons */
 #start {
     background-color: green;
     border: 1px solid green;
@@ -49,6 +50,27 @@
     color: red;
     transition: .2s ease-in-out;
 }
+
+#reset {
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    color: black;
+    padding: 1px 15px;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+    margin: 0% 0% 2% 0%;
+}
+
+#reset:hover {
+    background: none;
+    border: 1px solid yellow;
+    color: yellow;
+    transition: .2s ease-in-out;
+}
+
+/* end buttons*/
+
 html,
 body {
     height: 600px;

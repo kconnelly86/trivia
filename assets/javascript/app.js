@@ -5,6 +5,12 @@ $('#start').on('click', function(){
 $(document).on('click','#end',function(){
     game.done();
 })
+/*
+//reset button
+$(document).on('click', '#reset', function () {
+    game.start();
+});
+*/
 
 var questions = [{
     question: "What was Lord Helmet doing privately in his room that he didn't want anyone to see?",
