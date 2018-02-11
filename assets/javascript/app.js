@@ -6,10 +6,6 @@ $(document).on('click','#end',function(){
     game.done();
 })
 
-
-
-
-
 var questions = [{
     question: "What was Lord Helmet doing privately in his room that he didn't want anyone to see?",
     answers: ["Playing with dolls", "Playing cars", "Playing Football", "Patriots are the worst"],
@@ -107,9 +103,9 @@ var game = {
         
     }
 }
-
+//reset button works by reloading the original content
 var reset = document.getElementById('reset');
 
-reset.addEventListener('click', function (e) {
+reset.addEventListener('click', function () {
     location.reload();
 }, false);
